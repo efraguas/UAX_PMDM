@@ -32,7 +32,7 @@ class SecondActivity : AppCompatActivity() {
         Glide.with(applicationContext)
             .load(pais.Imagen)
             .placeholder(R.drawable.defecto)
-            .into(binding.imagen)
+            .into(binding.bandera)
 
         binding.nombre.text = "Pais: ${pais.nombre}"
         binding.poblacion.text = " Poblacion: ${pais.poblacion}M de personas"
